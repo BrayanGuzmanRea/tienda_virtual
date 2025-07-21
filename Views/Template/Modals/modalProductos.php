@@ -27,7 +27,7 @@
                 <div class="col-md-4">
                     <div class="form-group">
                         <label class="control-label">Código <span class="required">*</span></label>
-                        <input class="form-control" id="txtCodigo" name="txtCodigo" type="text" placeholder="Código de barra" required="">
+                        <input class="form-control" id="txtCodigo" name="txtCodigo" type="number" placeholder="Código de barra" maxlength="10" min="0" max="9999999999" oninput="if(this.value.length > 10) this.value = this.value.slice(0,10)" required="">
                         <br>
                         <div id="divBarCode" class="notblock textcenter">
                             <div id="printCode">
@@ -75,7 +75,7 @@
               <div class="tile-footer">
                  <div class="form-group col-md-12">
                      <div id="containerGallery">
-                         <span>Agregar foto (440 x 545)</span>
+                         <span>Agregar foto (736 x 1104)</span>
                          <button class="btnAddImage btn btn-info btn-sm" type="button">
                              <i class="fas fa-plus"></i>
                          </button>
