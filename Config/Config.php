@@ -44,8 +44,8 @@
 
 	//Datos Empresa
 	const DIRECCION = "Avenida San José 1233, Chiclayo";
-	const TELEMPRESA = "+(51)954316648";
-	const WHATSAPP = "+50278787845";
+	const TELEMPRESA = "+(51)";
+	const WHATSAPP = "+51995769860";
 	const EMAIL_EMPRESA = "facheritoShop@gmail.com";
 	const EMAIL_PEDIDOS = "junioralvines1005@gmail.com"; 
 	const EMAIL_SUSCRIPCION = "junioralvines1005@gmail.com";
@@ -98,8 +98,8 @@
 	const PROBUSCAR = 4;
 
 	//REDES SOCIALES
-	const FACEBOOK = "https://www.facebook.com/JuniorAlvines";
-	const INSTAGRAM = "https://www.instagram.com/JuniorAlvines/";
+	const FACEBOOK = "https://www.facebook.com/junior.alvines.7";
+	const INSTAGRAM = "https://www.instagram.com/alvinesjunior/";
 	
 
  ?>
